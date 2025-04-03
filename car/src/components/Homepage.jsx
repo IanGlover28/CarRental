@@ -62,7 +62,7 @@ const CarRentalWebsite = () => {
         <div className="flex items-center justify-between">
           {/* Logo on the Left */}
           <div className="text-white font-semibold text-xl">
-            <span>CarRental</span>
+            <span>Danful Autos</span>
           </div>
 
           {/* Nav Links for Large Screens */}
