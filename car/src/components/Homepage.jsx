@@ -179,7 +179,37 @@ const CarRentalWebsite = () => {
       </section>
 
       {/* Car Logos Section */}
+      <section id="contact" className="min-h-screen bg-gray flex flex-col lg:flex-row items-center justify-center w-full px-6 py-16">
+  {/* Contact Info */}
+  <div className="w-full lg:w-1/2 text-center lg:text-left">
+    <h2 className="text-2xl lg:text-3xl font-bold mb-4">Contact Us</h2>
+    <p className="text-lg text-gray-700">Reach out to us for any inquiries or assistance.</p>
+    <p className="text-md text-gray-600 mt-4">📍 Tema, Accra, Ghana</p>
+    <p className="text-md text-gray-600 mt-2">
+      📞 <a href="tel:+233542119400" className="text-blue-500 hover:text-blue-700">+233 ********</a>
+    </p>
+    <p className="text-md text-gray-600 mt-2">
+      ✉️ <a href="mailto:marinebroadlink@gmail.com" className="text-blue-500 hover:text-blue-700">danfulautos@gmail.com</a>
+    </p>
+  </div>
+
+  {/* Google Map */}
+  <div className="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0">
+    <iframe
+      title="Google Map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63523.09550745245!2d-0.02984248468857953!3d5.685156589828455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102078a5400d3e29%3A0xccdf4b5d4026488b!2sTema!5e0!3m2!1sen!2sgh!4v1743700120510!5m2!1sen!2sgh"
+      width="100%"
+      height="250"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      className="rounded-lg shadow-lg"
+    ></iframe>
+  </div>
+</section>
      
+
+
 
       {/* Footer Section */}
       <footer className="bg-gray-800 text-white py-6">
@@ -205,6 +235,8 @@ const CarRentalWebsite = () => {
             </a>
           </div>
   </div>
+
+ 
 
   {/* Copyright in the center */}
   <div className="mt-4 text-center">
